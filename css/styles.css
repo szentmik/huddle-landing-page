@@ -1,0 +1,101 @@
+body {
+  background: hsl(257, 40%, 49%) url("../images/bg-desktop.svg") no-repeat center;
+  background-size: cover;
+  color: #fff;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  margin: 3rem auto;
+  width: 85%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+
+p {
+  padding: 1.5rem 0 0.5rem;
+}
+
+.col-lg-6 {
+  padding: 5% 3%;
+}
+
+.main-img {
+  width: 100%;
+}
+
+.content {
+  margin-top: 3rem;
+}
+
+.btn {
+  border-radius: 50px;
+  background-color: #fff;
+  color: hsl(257, 40%, 49%);
+  font-family: 'Poppins';
+  font-size: 0.9rem;
+  padding: 2% 10%;
+}
+
+.btn:hover {
+  background: hsl(300, 69%, 71%);
+  color: #fff;
+}
+
+.social-media {
+  text-align: right;
+}
+
+.fab {
+  border: solid 1px;
+  border-radius: 100%;
+  font-size: 1.2rem;
+  margin: 0 .5rem;
+  padding: .5rem;
+  text-align: center;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.fab:hover {
+  color: hsl(300, 69%, 71%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width:970px) {
+  body {
+    background-image: url("../images/bg-mobile.svg");
+    background-size: contain;
+    background-position: top;
+    text-align: center;
+  }
+  .logo {
+    text-align: left;
+  }
+  .page-logo {
+    margin-bottom: 3rem;
+    width: 30%;
+  }
+  .btn {
+    width: 50%;
+  }
+
+  .social-media {
+    padding: 3rem 0;
+    text-align: center;
+  }
+  .fab {
+    font-size: .9rem;
+    height: 2rem;
+    width: 2rem;
+  }
+}
